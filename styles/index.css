@@ -1,0 +1,96 @@
+body{
+  background-color: rgb(235, 210, 165);
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+  text-align: center;
+}
+h3{
+  margin:10px;
+  position: absolute;
+  top:-4px;
+}
+header{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  border: 2px solid black;
+  border-radius: 2px;
+  background-color: rgb(223, 223, 156);
+  height: 90px
+}
+
+footer{
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  border: 2px solid black;
+  border-radius: 2px;
+  background-color: rgb(223, 223, 156);
+  height: 90px;
+}
+.socmed-container{
+  display: grid;
+  margin: 10px;
+  position: relative;
+  border: 1px solid black;
+  height: 40px;
+  width: auto;
+  margin: 10px;
+  gap: 10px;
+  grid-template-columns: repeat(7, 1fr); 
+
+}
+.socmed-name{
+  font-size: 20px;
+  position: absolute;
+  left:45px;
+  bottom: -12px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.usernames{
+  color: #000;
+}
+.footer-image{
+  width: 40px;
+  
+}
+.main{
+  position: relative;
+  top: 100px;
+  display: grid;
+  justify-content: flex-start;
+  gap: 20px;
+
+  grid-template-columns: repeat(10, 1fr); 
+
+}
+.app-button{
+  position: relative;
+  margin: 10px;
+  height: 110px;
+  width: 130px;
+  border: 3px solid black;
+  border-radius: 5px;
+  background-color: beige;
+  opacity: 0.99;
+  justify-content: center;
+  font-size: large;
+  background-color: rgb(115, 47, 47);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.app-button:hover{
+  background-color: rgb(174, 69, 69);
+}
+.button-text{
+  text-decoration: none;
+  color: rgb(190, 165, 165);
+  font-weight: bold;
+}
