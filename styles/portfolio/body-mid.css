@@ -1,0 +1,39 @@
+.body-mid{
+  margin-top: 30px;
+}
+
+.body-title{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: block;
+  font-weight: bold;
+  font-size: 25px; 
+  display: grid;
+  justify-items: center;
+}
+.about-me,
+.work-experience,
+.leadership-experience,
+.seminars-attended,
+.personal-information,
+.achievements-and-awards{
+  font-size: large;
+  margin-bottom: 20px;
+  height: auto;
+  border: 1px solid black;
+  
+}
+
+.about-me-details,
+.work-experience-details,
+.leadership-experience-details,
+.seminars-attended-details,
+.personal-information-details,
+.achievements-and-awards-details{
+  font-size: 18px;
+  padding: 15px;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  line-height: 190%;
+  text-align: justify;
+}

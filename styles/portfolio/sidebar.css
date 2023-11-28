@@ -1,0 +1,43 @@
+.sidebar{
+  position: absolute;
+  width: 300px;
+  border: 1px solid black;
+  height: 1100px;
+  background-color: rgb(204, 227, 255);
+}
+
+.sidebar-title{
+  margin-top: 5px;
+  display: block;
+  font-weight: bold;
+  font-size: 25px;
+}
+.my-pic{
+  width: 180px;
+  height: 180px;
+  border-radius:110px;
+  margin-top: 30px;
+  margin-left: 35px;
+  border: 25px solid rgb(127, 163, 207);
+}
+.contact,
+.education,
+.skills,
+.interests{
+  font-size: large;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: auto;
+  border: 1px solid black;
+  
+}
+.contact-details,
+.education-details,
+.skills-details,
+.interests-details{
+  font-size: 18px;
+  margin-left: 10px;
+  letter-spacing: 0.5px;
+  line-height: 150%;
+}
