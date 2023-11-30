@@ -1,8 +1,0 @@
-.body-grid{
-  display: grid;
-  margin-left: 320px;
-  grid-template-columns: 1fr 1fr;
-  column-gap: 16px;
-  min-width: 1000px;
-  max-width: 1500px;
-}

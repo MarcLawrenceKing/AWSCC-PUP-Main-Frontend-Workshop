@@ -1,37 +1,54 @@
 .sidebar{
   position: absolute;
   width: 300px;
-  border: 1px solid black;
-  height: 1100px;
-  background-color: rgb(204, 227, 255);
+  border: 1px solid rgb(69, 193, 112);
+  height: 1260px;
+  background: radial-gradient(circle, #c5f1c5, rgb(69, 193, 112));
+  top:0;
+  bottom: 0;
 }
 
 .sidebar-title{
-  margin-top: 5px;
+  margin-top: 10px;
   display: block;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 23px;
+  color: rgb(16, 45, 20);
+
 }
 .my-pic{
   width: 180px;
   height: 180px;
   border-radius:110px;
   margin-top: 30px;
-  margin-left: 35px;
-  border: 25px solid rgb(127, 163, 207);
+  margin-left: 45px;
+  border: 15px solid rgb(149, 229, 149);
 }
 .contact,
 .education,
-.skills,
-.interests{
-  font-size: large;
+.interests,
+.skills{
   margin-top: 10px;
   margin-left: 10px;
   margin-right: 10px;
+  padding: 3px;
   height: auto;
-  border: 1px solid black;
-  
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  background: radial-gradient(circle, #eaeaea, rgb(198, 234, 210));
+  width: 265px;
 }
+
+
+.skills-details ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+
 .contact-details,
 .education-details,
 .skills-details,
@@ -40,4 +57,6 @@
   margin-left: 10px;
   letter-spacing: 0.5px;
   line-height: 150%;
+  margin-right: 10px;
+  text-align: justify;
 }

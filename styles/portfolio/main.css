@@ -1,24 +1,59 @@
 body{
-background-color: rgb(244, 237, 229);
+background: radial-gradient(circle, #afd2ae, rgb(131, 224, 162));
 margin: 0px;
-font-family: Arial;
-padding-right:20px;
+font-family: 'Lato';
+min-width: 1000px;
+padding-top: 0;
+
 }
 
 .header{
-  margin-left: 320px;
-  border: 1px solid black;
+  margin-left: 300px;
+  border: 1px solid rgb(69, 193, 112);
+  min-width: 1000px;
+  height: 200px;
+  background: radial-gradient(circle, #c5f1c5, rgb(69, 193, 112));
+  position: relative;
+}
+
+.affiliations{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns as needed */
+  gap: 20px; /* Adjust the gap between grid items as needed */
+  position: absolute;
+  top: 30px;
+  right: 40px;
+}
+.affiliations-container {
+  display: grid; /* Use flexbox for centering */
+  place-items: center;
+}
+
+.affiliations-container img {
+  height: 110px;
+  border-radius: 55px;
+}
+
+.affiliations-container p {
+  margin-top: 5px;
+  font-size: 14px;
+  width: 130px;
+  text-align: center;
 }
 .name{
   display: block;
   font-size: 70px;
   font-weight: bold;
   margin-top: 50px;
+  width: 500px;
+  margin-left: 20px;
 }
 .job-description{
   margin-top: 20px;
   display:block;
   font-size: 25px;
+  width: 500px;
+  margin-left: 20px;
 }
 
 .underline{

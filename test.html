@@ -3,21 +3,42 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Two-Column List</title>
   <style>
-    .shadow-example {
-      width: 200px;
-      height: 100px;
-      background-color: #ffffff;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      margin: 20px;
+    /* Apply basic styling to the list */
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    /* Style for each list item */
+    li {
+      padding: 8px;
+      border-bottom: 1px solid #ccc;
+    }
+
+    /* Create two columns using CSS Grid */
+    .two-column-list {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
     }
   </style>
 </head>
 <body>
-
-<div class="shadow-example">
-  <!-- Your content goes here -->
-</div>
-
+  <div class="two-column-list">
+    <ul>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+      <li>Item 4</li>
+    </ul>
+    <ul>
+      <li>Item 5</li>
+      <li>Item 6</li>
+      <li>Item 7</li>
+      <li>Item 8</li>
+    </ul>
+  </div>
 </body>
 </html>
