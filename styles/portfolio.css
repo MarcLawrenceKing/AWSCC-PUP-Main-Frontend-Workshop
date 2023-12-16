@@ -1,0 +1,171 @@
+body{
+background: radial-gradient(circle, #afd2ae, rgb(131, 224, 162));
+margin: 0px;
+font-family: 'Lato';
+min-width: 1000px;
+padding-top: 0;
+
+}
+
+.sidebar{
+  position: absolute;
+  width: 300px;
+  border: 1px solid rgb(69, 193, 112);
+  height: 1260px;
+  background: radial-gradient(circle, #c5f1c5, rgb(69, 193, 112));
+  top:0;
+  bottom: 0;
+}
+
+.sidebar-title{
+  margin-top: 10px;
+  display: block;
+  font-weight: bold;
+  font-size: 23px;
+  color: rgb(16, 45, 20);
+
+}
+.my-pic{
+  width: 180px;
+  height: 180px;
+  border-radius:110px;
+  margin-top: 30px;
+  margin-left: 45px;
+  border: 15px solid rgb(149, 229, 149);
+}
+.contact,
+.education,
+.interests,
+.skills{
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 3px;
+  height: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  background: radial-gradient(circle, #eaeaea, rgb(198, 234, 210));
+  width: 265px;
+}
+
+
+.skills-details ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+.contact-details,
+.education-details,
+.skills-details,
+.interests-details{
+  font-size: 18px;
+  margin-left: 10px;
+  letter-spacing: 0.5px;
+  line-height: 150%;
+  margin-right: 10px;
+  text-align: justify;
+}
+.header{
+  margin-left: 300px;
+  border: 1px solid rgb(69, 193, 112);
+  min-width: 1000px;
+  height: 200px;
+  background: radial-gradient(circle, #c5f1c5, rgb(69, 193, 112));
+  position: relative;
+}
+
+.affiliations{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns as needed */
+  gap: 20px; /* Adjust the gap between grid items as needed */
+  position: absolute;
+  top: 30px;
+  right: 40px;
+}
+.affiliations-container {
+  display: grid; /* Use flexbox for centering */
+  place-items: center;
+}
+
+.affiliations-container img {
+  height: 110px;
+  border-radius: 55px;
+}
+
+.affiliations-container p {
+  margin-top: 5px;
+  font-size: 14px;
+  width: 130px;
+  text-align: center;
+}
+.name{
+  display: block;
+  font-size: 70px;
+  font-weight: bold;
+  margin-top: 50px;
+  width: 500px;
+  margin-left: 20px;
+}
+.job-description{
+  margin-top: 20px;
+  display:block;
+  font-size: 25px;
+  width: 500px;
+  margin-left: 20px;
+}
+
+.underline{
+  text-decoration: underline;
+}
+
+.body-grid{
+
+  margin-left: 320px;
+  min-width: 1000px;
+  max-width: 1500px;
+}
+
+.body-title{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: block;
+  font-weight: bold;
+  font-size: 25px; 
+  display: grid;
+  justify-items: center;
+}
+.about-me,
+.work-experience,
+.leadership-experience,
+.seminars-attended,
+.personal-information,
+.achievements-and-awards{
+  font-size: large;
+  margin-top: 20px;
+  height: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  background: radial-gradient(circle, #eaeaea, rgb(198, 234, 210));
+  margin-right: 20px;
+  
+}
+
+.about-me-details,
+.work-experience-details,
+.leadership-experience-details,
+.seminars-attended-details,
+.personal-information-details,
+.achievements-and-awards-details{
+  font-size: 18px;
+  padding: 15px;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  line-height: 190%;
+  text-align: justify;
+}
+
+
