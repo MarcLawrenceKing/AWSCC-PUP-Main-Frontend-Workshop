@@ -1,0 +1,54 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background: radial-gradient(circle, #529452, rgb(78, 155, 104));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  background: radial-gradient(circle, #eabebe, rgb(214, 153, 153));
+  height: 250px;
+  padding: 20px;
+  border-radius: 100px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input {
+  padding: 8px;
+  margin: 10px 0;
+  width: 95px;
+  background-color: rgb(205, 231, 217);
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #abfa9f;
+  color: #fff;
+  border: none;
+  border-radius: 90px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+h1{
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(71, 67, 67);
+}
+
+#message{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(71, 67, 67);
+
+}
+
+#submitBtn{
+  color: white;
+  background-color: rgb(114, 204, 114);
+}
