@@ -3,6 +3,7 @@ body{
   padding: 0px;
   font-family: 'Lato';
   height: auto;
+  min-width: 1400px;
 }
 
 header h1{
@@ -22,7 +23,8 @@ header{
   border: 2px solid black;
   border-radius: 2px;
   background: radial-gradient(circle, #529452, rgb(78, 155, 104));
-  height: 90px
+  height: 90px;
+  min-width: 1600px;
 }
 
 footer{
@@ -37,6 +39,7 @@ footer{
   background: radial-gradient(circle, #529452, rgb(78, 155, 104));
   height: 90px;
   color: #eee;
+  min-width: 1620px;
 }
 .socmed-container{
   display: grid;

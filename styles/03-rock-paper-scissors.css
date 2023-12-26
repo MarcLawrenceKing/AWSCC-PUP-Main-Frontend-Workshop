@@ -10,6 +10,7 @@ body {
     height: 97vh;
     font-family: "Roboto", Arial, Helvetica, sans-serif;
     text-shadow: 2px 2px 1px gray;
+    min-width: 1400px;
 }
 
 .choice-btn {

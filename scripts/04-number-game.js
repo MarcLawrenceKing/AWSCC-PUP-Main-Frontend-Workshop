@@ -1,6 +1,8 @@
 // document.addEventListener('DOMContentLoaded', function () make sures the html is completely loaded before executing the JS code
 document.addEventListener('DOMContentLoaded', function () {
   const randomNumber = generateRandomNumber();
+  let attempts = 0;
+
   const userInput = document.getElementById('userInput');
   const submitBtn = document.getElementById('submitBtn');
   const feedback = document.getElementById('reply');
@@ -11,6 +13,7 @@ document.addEventListener('DOMContentLoaded', function () {
       if (isNaN(userGuess) || userGuess < 1 || userGuess > 100) {
           feedback.textContent = 'Please enter a valid number between 1 and 100.';
       } else {
+         attempts++;
           checkGuess(userGuess);
       }
   });
@@ -21,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   function checkGuess(guess) {
       if (guess === randomNumber) {
-          showFeedback(`"${randomNumber}" is correct, Good job!`, 'green');
+          showFeedback(`"${randomNumber}" is correct, and it took you ${attempts} attempts, Good job!`, 'green');
           disableInputAndButton();
       } else if (guess < randomNumber) {
           showFeedback(`"${guess}" isn't correct, Go higher!`, 'red');
