@@ -122,7 +122,14 @@ footer{
   }
   
   header{
-    border: 1px solid black;
+    border: 2px solid black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background: radial-gradient(circle, #529452, rgb(78, 155, 104));
+    height: 90px;
+    min-width: 370px;
   }
   header h1{
     position: absolute;
@@ -144,12 +151,13 @@ footer{
     bottom: 0px;
     left: 0px;
     right: 0px;
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 2px;
     background: radial-gradient(circle, #529452, rgb(78, 155, 104));
     height: 130px;
+    width: 130px;
     color: #eee;
-    min-width: 375px;
+    min-width: 371px;
   }
   .socmed-container1{
     
